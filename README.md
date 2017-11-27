@@ -3,7 +3,8 @@ A Python based converter for LETOR formatted data to data compatible with scikit
 Luann Jung 2017
 
 # How to Use
-This script can be run in a command line (if your Python interpreter is already in your %PATH) with `python.exe LtoS.py inputdata.txt inputclasses.txt`
+This script can be run in a command line (if your Python interpreter is already in your %PATH) with</br> 
+`python.exe LtoS.py inputdata.txt inputclasses.txt`
       
 * The first parameter is the name of your LETOR formatted input file.</br>
 * The second parameter is the name of your file with all the class names comma-delimited in one line.</br>
