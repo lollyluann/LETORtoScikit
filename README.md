@@ -3,21 +3,11 @@ A Python based converter for LETOR formatted data to data compatible with scikit
 Luann Jung 2017
 
 # How to Use
-This script is importable using the following Python code:
-```python
-import sys
-import os
-sys.path.append("C:/Users/lolly/Documents/GitHub/LETORtoScikit") #directory should be to this repository
-import LtoSKL
-
-os.chdir("C:/Users/lolly/PycharmProjects/testingarea") #directory should be to wherever your input files are
-LtoSKL.convert('input.txt', 'listOfClasses.txt') 
-```
+This script can be run in a command line (if your Python interpreter is already in your %PATH) with `python.exe LtoS.py inputdata.txt inputclasses.txt`
       
-* The convert() function is the only function that should be called. </br>
-    * The first parameter is the name of your LETOR formatted input file.</br>
-    * The second parameter is the name of your file with all the class names comma-delimited in one line.</br>
-        * e.g. `setosa,virginica,versicolor`</br>
+* The first parameter is the name of your LETOR formatted input file.</br>
+* The second parameter is the name of your file with all the class names comma-delimited in one line.</br>
+      * e.g. `setosa,virginica,versicolor`</br>
         
 * The script will write to two .csv files.</br>
     * The first file will be "*whateveryourinputwasnamed-attr.csv*" and will contain a list of all the non-class attributes of the data.</br>
