@@ -1,5 +1,5 @@
-# Creator: Luann Jung
-# 26 September 2017
+# Luann Jung
+# 11/26/2017
 
 import sys
 
