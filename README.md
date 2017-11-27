@@ -1,5 +1,6 @@
 # LETORtoScikit
 A Python based converter for LETOR formatted data to data compatible with scikit-learn
+Luann Jung 2017
 
 # How to Use
 This script is importable using the following Python code:
