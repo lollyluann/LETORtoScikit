@@ -1,5 +1,5 @@
 # LETORtoScikit
-A Python based converter for LETOR formatted data to data compatible with scikit-learn
+A Python based converter for LETOR formatted data to data compatible with scikit-learn</br>
 Luann Jung 2017
 
 # How to Use
